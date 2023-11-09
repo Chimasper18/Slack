@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    background-color: #FFF5EE;
+
+}
+a{
+    text-decoration: none;
+}
+button{
+    all: unset;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* This 2 above would only work with display flex or display grid */
+    background-color: white;
+    padding: 10px 30px;
+    
+}
+ul{
+    display: flex;
+    list-style: none;
+    gap: 20px;
+    /* This 1 above would only work with display flex or display grid */
+}
+.logo{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.navb{
+    background-color: #800080;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 10px;
+    margin-left: 10px;
+    font-weight: 600;
+}
+nav a{
+    color: black;
+    font-size: 20px;
+}
+nav span{
+    font-weight: 700;
+    font-size: 30px;
+}
+main{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px;
+}
+.main-content{
+    width: 50%;
+}
+main img{
+    width: 40%;
+    padding: 20px 40px;
+
+}
+.main-content h1{
+        font-size: 80px;
+}
+.main-content p{
+    font-size:25px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    
+}
+.one{
+    background-color: #800080;
+    color: white;
+    padding: 20px 20px;
+    border: 2px solid #545454;
+}
+.two{
+    background-color: #F0F0F0;
+    padding: 20px 20px;
+    border: 2px solid #800080;
+
+
+}
