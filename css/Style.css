@@ -8,6 +8,9 @@ body{
     background-color: #FFF5EE;
 
 }
+button{
+    cursor: pointer;
+}
 .iclass{
     display:none;
     font-size:20px;
@@ -159,5 +162,8 @@ main img{
     }
     .main-content p{
         font-size:14px;
+    }
+    .main-content{
+        width:90%;
     }
 }
